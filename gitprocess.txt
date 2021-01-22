@@ -1,0 +1,12 @@
+Git branch-> crea nueva rama
+Git checkout +nombre de la rama -> nos mueve a la nueva rama
+Git merge +laramaquedeseamoshacerelmerge -> este se hace desde master para guardar los cambios hechos en otra rama.
+Git remote add origin +url de GitHub -> traemos el repositorio online
+Git pull origin  master -> primero se hace esto para traer los cambios y después se hace el push
+Git pull origin  master —allow-unrelated-histories-> fuerza el merge
+Git push origin master -> enviar la rama master al repositorio online
+
+Git remote set-url origin clavessh
+
+Git pull-> trae todo de GitHub
+Git push -> sube todo a GitHub 
