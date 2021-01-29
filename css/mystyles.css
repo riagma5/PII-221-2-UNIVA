@@ -1,0 +1,19 @@
+/*
+#FC1E08
+#E0072F
+#F714AF
+#CB07E0
+#A108FC
+*/
+
+
+body{
+    background-color: #A108FC;
+    font-family: 'Titillium Web', sans-serif;
+    color: aqua;
+}
+
+body > header >img{
+    width: 50%;
+}
+
