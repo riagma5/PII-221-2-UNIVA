@@ -35,16 +35,16 @@ h2 {
     text-transform: uppercase;
 }
 
-h4 {
-    font-size: 1.2rem;
-}
-
 ul {
     list-style: none;
 }
 
 a {
     text-decoration: none;
+}
+
+form {
+    margin-bottom: 2rem;
 }
 
 
@@ -80,43 +80,42 @@ header {
 }
 
 
-/*Contenido*/
+/*Services*/
 
 .container {
-    width: 95%;
-    max-width: 120rem;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
-.container h1 {
+.list-services {
+    padding: 0;
+    list-style: none;
+}
+
+.list-services li {
+    float: left;
+    width: 33.3%;
+    padding: 20px;
     text-align: center;
-    font-weight: 300;
 }
 
-.content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 2rem;
+.list-services p {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10 0 0 0;
 }
 
-.image {
-    padding-bottom: 2rem;
-}
-
-
-/*Footer*/
-
-footer {
-    background-color: #4F5459;
-    position: absolute;
-    width: 100%;
+.button {
+    background-color: #9CD918;
+    display: inline-block;
+    flex: 0 0 auto;
     color: white;
-    text-align: center;
-    padding-top: 1rem;
-}
-
-footer a {
-    color: white;
+    font-weight: 700;
     text-decoration: none;
-    padding: 4rem;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
 }
